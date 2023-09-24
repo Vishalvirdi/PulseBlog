@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Palanquin:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply bg-[#fff] w-full p-2 block mb-5 border-[#ddd] border-2 rounded-lg outline-blue-200;
+  }
+  button {
+    @apply w-full block bg-[#555] text-[#fff] rounded-lg py-2 shadow-lg shadow-black;
+  }
+}
+
+div.content p{
+  line-height: 1.7rem;
+  margin: 30px 0;
+}
+div.content li{
+  margin-bottom: 10px;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+body{
+  color: #222;
+ background-color: azure;
+}
+
+img{
+  max-width: 100%;
+}
